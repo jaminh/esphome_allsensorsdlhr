@@ -7,7 +7,7 @@ SPI and I2C, this component only supports reading values over SPI.
 ## Configuration
 
 The first step to configuring the sensor is configuring the
-https://esphome.io/components/spi.html#spi (SPI) bus.
+[SPI](https://esphome.io/components/spi.html#spi) bus.
 
 Next configure the sensor.
 
@@ -40,7 +40,7 @@ the range is from -2.0 to +2.0).
 * **temperature**: The information for the temperature sensor.
   * **name**: The name for the temperature sensor.
 * **cs_pin**: SPI Chip select pin.
-* **update_interval**: The interval to check the sensor.
+* **update_interval**: The interval to check the sensor. Default is "20s".
 
 ## Additional information
 The component is set to use a CLK frequency of 2MHz. The acceptable frequency
